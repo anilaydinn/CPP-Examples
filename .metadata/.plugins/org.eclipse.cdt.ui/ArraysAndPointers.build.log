@@ -1,0 +1,7 @@
+18:18:03 **** Incremental Build of configuration Debug for project ArraysAndPointers ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArraysAndPointers.o" "..\\src\\ArraysAndPointers.cpp" 
+g++ -o ArraysAndPointers.exe "src\\ArraysAndPointers.o" 
+
+18:18:06 Build Finished. 0 errors, 0 warnings. (took 3s.135ms)
+

@@ -1,0 +1,33 @@
+#include<iostream>
+
+using namespace std;
+
+class Employee{
+
+private:
+	int id;
+	string name;
+	int salary;
+
+public:
+
+	Employee(){
+		this->id = 0;
+		this->name = "Bilgi Yok";
+		this->salary = 0;
+	}
+
+	Employee(string name, int salary){
+		this->name = name;
+		this->salary = salary;
+		this->id = 0;
+	}
+
+};
+
+int main(){
+
+
+
+	return 0;
+}

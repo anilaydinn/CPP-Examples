@@ -1,0 +1,11 @@
+18:12:59 **** Incremental Build of configuration Debug for project References ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\References.o" "..\\src\\References.cpp" 
+..\src\References.cpp: In function 'int main()':
+..\src\References.cpp:27:7: warning: variable 'ptr' set but not used [-Wunused-but-set-variable]
+   27 |  int *ptr;
+      |       ^~~
+g++ -o References.exe "src\\References.o" 
+
+18:13:02 Build Finished. 0 errors, 1 warnings. (took 2s.770ms)
+

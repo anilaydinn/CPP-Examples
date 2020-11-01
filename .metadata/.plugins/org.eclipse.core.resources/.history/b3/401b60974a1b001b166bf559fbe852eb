@@ -1,0 +1,15 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+
+	//Değişken Tipleri ve Değişkenler
+	/*
+	 	 int
+	 	 float
+	 	 double
+	 	 char
+	 	 bool
+	 */
+}

@@ -1,0 +1,21 @@
+#include <iostream>
+
+using namespace std;
+
+struct Employee{
+	int id;
+	string name;
+	string department;
+};
+
+void showEmployee(Employee employee){
+
+	cout << "Id: " << employee.id << endl;
+}
+
+int main(){
+
+
+
+	return 0;
+}

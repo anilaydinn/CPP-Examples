@@ -1,0 +1,7 @@
+15:48:31 **** Incremental Build of configuration Debug for project ConstClassMembersAndMethods ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ConstClassMembersAndMethods.o" "..\\src\\ConstClassMembersAndMethods.cpp" 
+g++ -o ConstClassMembersAndMethods.exe "src\\ConstClassMembersAndMethods.o" 
+
+15:48:33 Build Finished. 0 errors, 0 warnings. (took 2s.337ms)
+

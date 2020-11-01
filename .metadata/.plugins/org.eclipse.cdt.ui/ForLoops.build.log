@@ -1,0 +1,7 @@
+14:04:24 **** Incremental Build of configuration Debug for project ForLoops ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ForLoops.o" "..\\src\\ForLoops.cpp" 
+g++ -o ForLoops.exe "src\\ForLoops.o" 
+
+14:04:27 Build Finished. 0 errors, 0 warnings. (took 2s.738ms)
+

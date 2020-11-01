@@ -1,0 +1,44 @@
+#include <iostream>
+
+using namespace std;
+
+class Employee{
+
+private:
+	int id;
+	string name;
+	int salary;
+
+public:
+
+	Employee(int kimlik,string isim, int maas){
+		name = isim;
+		salary = maas;
+	}
+
+	void setName(string isim){
+		name = isim;
+	}
+	string getName(){
+		return name;
+	}
+	void setSalary(int maas){
+		salary = maas;
+	}
+	int getSalary(){
+		return salary;
+	}
+	void showInfos(){
+		cout << "İsim: " << name << endl;
+		cout << "Maaş: " << salary << endl;
+	}
+};
+
+int main(){
+
+	Employee employee("Anıl",3000);
+
+	employee.showInfos();
+
+	return 0;
+}

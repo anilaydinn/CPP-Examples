@@ -1,0 +1,7 @@
+17:00:01 **** Incremental Build of configuration Debug for project ReturnFunctions ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ReturnFunctions.o" "..\\src\\ReturnFunctions.cpp" 
+g++ -o ReturnFunctions.exe "src\\ReturnFunctions.o" 
+
+17:00:04 Build Finished. 0 errors, 0 warnings. (took 2s.527ms)
+

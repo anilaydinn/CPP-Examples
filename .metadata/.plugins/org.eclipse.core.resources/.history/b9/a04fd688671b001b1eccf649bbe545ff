@@ -1,0 +1,19 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+
+	string password = "123456";
+	string  input;
+
+	do{
+		cout << "Parolanızı Girin:";
+		cin >> input;
+
+	}while(input != password);
+
+	cout << "Parolayı doğru girdiniz..." << endl;
+
+	return 0;
+}

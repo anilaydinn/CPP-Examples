@@ -1,0 +1,17 @@
+#include <iostream>
+
+using namespace std;
+
+void selamla();
+
+int main(){
+
+	selamla(); //fonksiyon çağrısı (function call)
+
+	return 0;
+}
+
+void selamla(){
+	cout << "Naber?" << endl;
+	cout << "Nasılsın?" << endl;
+}

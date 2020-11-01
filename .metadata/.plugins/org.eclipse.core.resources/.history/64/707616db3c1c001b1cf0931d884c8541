@@ -1,0 +1,21 @@
+#include <iostream>
+
+using namespace std;
+
+class Gamer{
+
+public:
+	static int gamers;
+
+	Gamer(){
+		gamers++;
+		cout << "Yeni oyuncu oluşturuldu" << endl;
+	}
+};
+
+int main(){
+
+
+
+	return 0;
+}

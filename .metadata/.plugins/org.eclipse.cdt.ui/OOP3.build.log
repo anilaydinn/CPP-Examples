@@ -1,0 +1,7 @@
+13:59:52 **** Incremental Build of configuration Debug for project OOP3 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\OOP3.o" "..\\src\\OOP3.cpp" 
+g++ -o OOP3.exe "src\\OOP3.o" 
+
+13:59:55 Build Finished. 0 errors, 0 warnings. (took 2s.933ms)
+

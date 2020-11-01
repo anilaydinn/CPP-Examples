@@ -1,0 +1,20 @@
+#include <iostream>
+
+using namespace std;
+
+void selamla(){
+	cout << "Merhaba" << endl;
+}
+
+void selamla(string name){
+	cout << "Merhaba " << name << endl;
+}
+
+int main(){
+
+	selamla();
+
+	selamla("Anıl");
+
+	return 0;
+}

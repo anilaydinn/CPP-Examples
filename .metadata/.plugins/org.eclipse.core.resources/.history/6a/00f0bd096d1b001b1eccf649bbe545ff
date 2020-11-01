@@ -1,0 +1,45 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+
+	/*
+	 	 Break: Döngüde break deyimi çalıştırıldığı zaman döngü anında sona erer.
+	 	 Continue: Döngüde continue deyimi çalıştırıldığı zaman döngü altındaki komutları
+	 	 çalıştırmadan başa döner.
+	 */
+
+	int i = 0;
+
+	/*
+	while(i < 10){
+		if(i == 5){
+			break;
+		}
+		cout << "i: " << i << endl;
+		i++;
+	}
+	*/
+
+	/*
+	for(int i = 0; i < 10; i++){
+
+		if(i == 3 || i == 5){
+			continue;
+		}
+
+		cout << "i: " << i << endl;
+	}
+	*/
+
+	while(i < 10){
+		if(i == 3 || i == 5){
+			continue;
+		}
+		cout << "i: " << i << endl;
+		i++;
+	}
+
+	return 0;
+}

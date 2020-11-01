@@ -1,0 +1,12 @@
+#include <iostream>
+
+using namespace std;
+
+void printArray(const int *ptr, const int *ptr2){
+
+}
+
+int main(){
+
+	return 0;
+}

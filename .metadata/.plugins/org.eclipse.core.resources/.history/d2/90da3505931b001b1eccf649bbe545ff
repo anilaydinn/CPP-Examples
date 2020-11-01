@@ -1,0 +1,16 @@
+#include <iostream>
+
+using namespace std;
+
+struct Employee{
+	int id;
+	string name;
+	string department;
+};
+
+int main(){
+
+
+
+	return 0;
+}

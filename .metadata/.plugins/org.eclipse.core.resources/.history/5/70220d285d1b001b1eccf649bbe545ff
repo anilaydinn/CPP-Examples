@@ -1,0 +1,13 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+
+	int a,b;
+	string islem;
+
+	cout << "Hesap Makinesi Programına Hoşgeldiniz...";
+
+	return 0;
+}

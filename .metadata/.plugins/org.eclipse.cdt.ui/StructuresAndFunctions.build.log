@@ -1,0 +1,7 @@
+19:30:58 **** Incremental Build of configuration Debug for project StructuresAndFunctions ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\StructuresAndFunctions.o" "..\\src\\StructuresAndFunctions.cpp" 
+g++ -o StructuresAndFunctions.exe "src\\StructuresAndFunctions.o" 
+
+19:31:00 Build Finished. 0 errors, 0 warnings. (took 2s.394ms)
+

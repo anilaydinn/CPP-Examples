@@ -1,0 +1,15 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+
+	int x;
+
+	cout << "Bir sayı giriniz: " << endl;
+	cin >> x;
+
+	cout << "Girdiğiniz Sayı : " << x << endl;
+
+	return 0;
+}

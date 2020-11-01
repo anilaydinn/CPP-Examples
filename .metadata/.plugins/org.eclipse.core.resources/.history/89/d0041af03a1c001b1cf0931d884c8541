@@ -1,0 +1,27 @@
+#include <iostream>
+
+using namespace std;
+
+class Employee{
+
+public:
+
+	string *s;
+	int *i;
+
+	Employee(){
+		cout << "Constructor çağrıldı " << endl;
+	}
+
+	~Employee(){
+		cout << "Destructor çağırıldı " << endl;
+	}
+};
+
+int main(){
+
+	Employee *emp = new Employee();
+
+	delete emp;
+	 return 0;
+}

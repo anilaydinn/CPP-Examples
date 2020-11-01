@@ -1,0 +1,27 @@
+#include <iostream>
+
+using namespace std;
+
+class Employee{
+
+private:
+	string name;
+	int id;
+	int salary;
+
+public:
+	void setName(string isim){
+		name = isim;
+	}
+};
+
+int main(){
+
+	Employee employee;
+
+	employee.id = 12;
+	employee.name = "Anıl";
+	employee.salary = 3000;
+
+	return 0;
+}

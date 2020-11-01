@@ -1,0 +1,11 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+
+	cout << "Integer: " << sizeof(int) << endl;
+	cout << "Char: " << sizeof(char) << endl;
+
+	return 0;
+}

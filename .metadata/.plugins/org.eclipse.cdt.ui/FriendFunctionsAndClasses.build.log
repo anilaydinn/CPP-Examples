@@ -1,0 +1,7 @@
+15:37:09 **** Incremental Build of configuration Debug for project FriendFunctionsAndClasses ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\FriendFunctionsAndClasses.o" "..\\src\\FriendFunctionsAndClasses.cpp" 
+g++ -o FriendFunctionsAndClasses.exe "src\\FriendFunctionsAndClasses.o" 
+
+15:37:11 Build Finished. 0 errors, 0 warnings. (took 2s.627ms)
+

@@ -1,0 +1,11 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+
+	string password = "123456";
+	string  input;
+
+	return 0;
+}

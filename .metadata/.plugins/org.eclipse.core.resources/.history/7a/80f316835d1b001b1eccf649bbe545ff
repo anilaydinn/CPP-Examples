@@ -1,0 +1,18 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+
+	int a,b;
+	string islem;
+
+	cout << "Hesap Makinesi Programına Hoşgeldiniz..." << endl;
+
+	cout << "1.İşlem : Toplama İşlemi " << endl;
+	cout << "2.İşlem : Çıkarma İşlemi " << endl;
+	cout << "3.İşlem : Çarpma İşlemi " << endl;
+	cout << "4.İşlem : Bölme İşlemi " << endl;
+
+	return 0;
+}

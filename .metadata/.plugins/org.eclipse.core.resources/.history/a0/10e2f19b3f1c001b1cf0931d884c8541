@@ -1,0 +1,20 @@
+#include <iostream>
+
+using namespace std;
+
+class Test{
+
+public:
+	int a;
+
+	Test(int a){
+		this->a = a;
+	}
+};
+
+int main(){
+
+	Test test1(10);
+
+	return 0;
+}

@@ -1,0 +1,10 @@
+18:21:47 **** Incremental Build of configuration Debug for project Constant ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Constant.o" "..\\src\\Constant.cpp" 
+..\src\Constant.cpp: In function 'int main()':
+..\src\Constant.cpp:15:7: error: assignment of read-only location 'a[2]'
+   15 |  a[2] = 100;
+      |  ~~~~~^~~~~
+
+18:21:48 Build Failed. 1 errors, 0 warnings. (took 494ms)
+

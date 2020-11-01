@@ -1,0 +1,10 @@
+#include <iostream>
+
+usin namespace std;
+
+int main(){
+
+	cout << "Integer: " << sizeof(int) << endl;
+
+	return 0;
+}

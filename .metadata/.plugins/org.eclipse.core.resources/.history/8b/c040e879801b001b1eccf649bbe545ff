@@ -1,0 +1,12 @@
+#include <iostream>
+
+using namespace std;
+
+void factorial(int sayi);
+
+int main(){
+
+
+
+	return 0;
+}

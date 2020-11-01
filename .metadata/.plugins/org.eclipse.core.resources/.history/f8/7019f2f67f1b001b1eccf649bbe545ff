@@ -1,0 +1,15 @@
+#include <iostream>
+
+using namespace std;
+
+void selamla(){
+	cout << "Naber?" << endl;
+	cout << "Nasılsın?" << endl;
+}
+
+int main(){
+
+	selamla();
+
+	return 0;
+}

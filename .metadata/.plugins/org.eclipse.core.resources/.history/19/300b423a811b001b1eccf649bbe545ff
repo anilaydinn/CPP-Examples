@@ -1,0 +1,15 @@
+#include <iostream>
+
+using namespace std;
+
+void toplama(int a, int b, int c){
+
+	cout << "Toplam: " << a + b + c << endl;
+}
+
+int main(){
+
+
+
+	return 0;
+}

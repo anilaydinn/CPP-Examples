@@ -1,0 +1,7 @@
+13:55:24 **** Incremental Build of configuration Debug for project DoWhileLoops ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\DoWhileLoops.o" "..\\src\\DoWhileLoops.cpp" 
+g++ -o DoWhileLoops.exe "src\\DoWhileLoops.o" 
+
+13:55:27 Build Finished. 0 errors, 0 warnings. (took 2s.775ms)
+

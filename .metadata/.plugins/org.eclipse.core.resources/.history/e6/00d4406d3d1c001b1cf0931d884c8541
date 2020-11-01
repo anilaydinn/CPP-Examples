@@ -1,0 +1,18 @@
+#include <iostream>
+
+using namespace std;
+
+class Mathematic{
+
+public:
+	static void cube(int x){
+		cout << x * x * x << endl;
+	}
+};
+
+int main(){
+
+
+
+	return 0;
+}

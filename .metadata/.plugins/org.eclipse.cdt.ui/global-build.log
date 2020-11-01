@@ -1,0 +1,47 @@
+15:41:50 **** Rebuild of configuration Debug for project ConstClassMembersAndMethods ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ConstClassMembersAndMethods.o" "..\\src\\ConstClassMembersAndMethods.cpp" 
+g++ -o ConstClassMembersAndMethods.exe "src\\ConstClassMembersAndMethods.o" 
+Info: Nothing to build for ConstClassMembersAndMethods
+15:42:07 **** Incremental Build of configuration Debug for project ConstClassMembersAndMethods ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ConstClassMembersAndMethods.o" "..\\src\\ConstClassMembersAndMethods.cpp" 
+..\src\ConstClassMembersAndMethods.cpp: In function 'int main()':
+..\src\ConstClassMembersAndMethods.cpp:19:10: error: assignment of member 'Test::a' in read-only object
+   19 |  test1.a = 20;
+      |  ~~~~~~~~^~~~
+15:44:31 **** Incremental Build of configuration Debug for project ConstClassMembersAndMethods ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ConstClassMembersAndMethods.o" "..\\src\\ConstClassMembersAndMethods.cpp" 
+..\src\ConstClassMembersAndMethods.cpp: In member function 'int Test::getValue() const':
+..\src\ConstClassMembersAndMethods.cpp:16:11: error: assignment of member 'Test::a' in read-only object
+   16 |   this->a = 20;
+      |   ~~~~~~~~^~~~
+15:45:19 **** Incremental Build of configuration Debug for project ConstClassMembersAndMethods ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ConstClassMembersAndMethods.o" "..\\src\\ConstClassMembersAndMethods.cpp" 
+..\src\ConstClassMembersAndMethods.cpp: In member function 'int Test::getValue() const':
+..\src\ConstClassMembersAndMethods.cpp:20:8: error: passing 'const Test' as 'this' argument discards qualifiers [-fpermissive]
+   20 |   test();
+      |        ^
+..\src\ConstClassMembersAndMethods.cpp:15:7: note:   in call to 'void Test::test()'
+   15 |  void test(){
+      |       ^~~~
+15:46:59 **** Incremental Build of configuration Debug for project ConstClassMembersAndMethods ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ConstClassMembersAndMethods.o" "..\\src\\ConstClassMembersAndMethods.cpp" 
+..\src\ConstClassMembersAndMethods.cpp: In function 'void test(const Test&)':
+..\src\ConstClassMembersAndMethods.cpp:25:24: error: passing 'const Test' as 'this' argument discards qualifiers [-fpermissive]
+   25 |  cout << test.getValue() << endl;
+      |                        ^
+..\src\ConstClassMembersAndMethods.cpp:19:6: note:   in call to 'int Test::getValue()'
+   19 |  int getValue() { //Bu method herhangi bir değeri değiştiremez. Const olmayan methodları çağıramaz.
+      |      ^~~~~~~~
+15:47:19 **** Incremental Build of configuration Debug for project ConstClassMembersAndMethods ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ConstClassMembersAndMethods.o" "..\\src\\ConstClassMembersAndMethods.cpp" 
+g++ -o ConstClassMembersAndMethods.exe "src\\ConstClassMembersAndMethods.o" 
+15:48:31 **** Incremental Build of configuration Debug for project ConstClassMembersAndMethods ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ConstClassMembersAndMethods.o" "..\\src\\ConstClassMembersAndMethods.cpp" 
+g++ -o ConstClassMembersAndMethods.exe "src\\ConstClassMembersAndMethods.o" 

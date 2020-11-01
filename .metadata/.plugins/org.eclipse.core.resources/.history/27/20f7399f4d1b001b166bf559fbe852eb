@@ -1,0 +1,17 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+
+	/*
+	 	 Matematik Operatörler
+
+	 	 +,-,*,/
+
+	 	 Arttırma Operatörü
+	 	 Azaltma Operatörü
+	 */
+
+	return 0;
+}

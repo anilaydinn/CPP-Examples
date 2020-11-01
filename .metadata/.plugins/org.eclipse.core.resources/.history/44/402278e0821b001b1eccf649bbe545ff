@@ -1,0 +1,17 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+
+	int a = 5;
+
+	int *ptr;
+
+	ptr = &a;
+
+	cout << "Değişkenin Adresi : " << &a << endl;
+	cout << "Değişkenin Adresi : " << ptr << endl;
+
+	return 0;
+}

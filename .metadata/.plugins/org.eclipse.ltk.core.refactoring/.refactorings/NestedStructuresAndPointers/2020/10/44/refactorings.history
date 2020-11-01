@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;NestedStructuresAndPointers/src/NestedStructuresAndPointers&apos; to &apos;NestedStructuresAndPointers.cpp&apos;" description="Rename resource &apos;NestedStructuresAndPointers&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/NestedStructuresAndPointers" name="NestedStructuresAndPointers.cpp" stamp="1604162408520" updateReferences="true"/>
+</session>

@@ -1,0 +1,14 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+
+	/*
+	 	 Break: Döngüde break deyimi çalıştırıldığı zaman döngü anında sona erer.
+	 	 Continue: Döngüde continue deyimi çalıştırıldığı zaman döngü altındaki komutları
+	 	 çalıştırmadan başa döner.
+	 */
+
+	return 0;
+}
